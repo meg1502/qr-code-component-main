@@ -1,0 +1,58 @@
+:root {
+  --color-slate-900: #1F314F;
+  --color-slate-500: #68778D;
+  --color-slate-300: #D5E1EF;
+  --space-200: 16px;
+  --space-300: 24px;
+  --space-500: 40px;
+}
+
+body {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  background-color: var(--color-slate-300);
+  min-height: 100vh;
+  
+}
+
+.card {
+  background-color: white;
+  width: 300px;
+  padding: var(--space-200);
+  border-radius: 16px;
+  text-align: center;
+}
+
+.outfit-bold {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    letter-spacing: 0;
+}
+
+.outfit-regular {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;  
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.2;
+}
+
+.card img {
+  border-radius: 16px;
+  margin-bottom: var(--space-300);
+  object-fit: contain;
+  max-width: 100%;
+}
+
+.card-header {
+  margin-bottom: var(--space-300);
+}
+
+.card-text {
+  margin-bottom: var(--space-500);
+}
